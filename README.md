@@ -32,13 +32,13 @@ For more detailed information, check the [**subject of this project**](https://g
 
 A good start would be to know what a **static variable** is.
 
-So what is a static variable?
+So what is a **static variable**?
 
-Basically, a static variable is a variable that maintains its value between function calls, staying in memory throughout the program's execution. It is initialized only once and retains its value between calls, being accessible only within the scope of the function where it was declared.
+Basically, a **static variable** is a variable that maintains its value between function calls, staying in memory throughout the program's execution. It is initialized only once and retains its value between calls, being accessible only within the scope of the function where it was declared.
 
 For more detailed information, check the Wikipedia on [**static variable**](https://en.wikipedia.org/wiki/Static_variable)
 
-This code is a practical example of how a static variable can work:
+This code is a practical example of how a **static variable** can work:
 
 ```
 #include <stdio.h>
@@ -68,7 +68,7 @@ The compilation and execution of the above code bring us the following result:
 3
 ```
 
-Now, we can see the essence of a static variable, which is the ability to retain its value between function calls.
+Now, we can see the essence of a **static variable**, which is the ability to retain its value between function calls.
 
 ## 📋 Testing
 
