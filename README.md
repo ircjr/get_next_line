@@ -38,7 +38,7 @@ Basically, a static variable is a variable that maintains its value between func
 
 For more detailed information, check the Wikipedia on [**static variable**](https://en.wikipedia.org/wiki/Static_variable)
 
-Aqui temos um exemplo prático de como uma variável estática pode funcionar:
+This code is a practical example of how a static variable can work:
 
 ```
 #include <stdio.h>
@@ -64,7 +64,7 @@ int	main(void)
 }
 ```
 
-A compilação e executação do código acima nos traz o incŕivel resultado:
+The compilation and execution of the above code bring us the following result:
 
 ```
 Modifying the position [0]: Xxample
