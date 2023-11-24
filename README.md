@@ -22,6 +22,8 @@ read from a file descriptor._
     simultaneously. It is an essential skill for anyone venturing into systems programming,
     file manipulation, or any domain where efficient text processing is paramount.
 
+For more detailed information, check the [**subject of this project**](https://github.com/ircjr/get_next_line/blob/main/en.subject.pdf)
+
 ## 📋 Testing
 
 This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the [**get_next_line.c**](https://github.com/ircjr/get_next_line/blob/main/get_next_line.c) file before running and replace **<size>** with the desired buffer size.
