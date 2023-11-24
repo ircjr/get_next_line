@@ -30,19 +30,13 @@ For more detailed information, check the [**subject of this project**](https://g
 
 ### 1️⃣ Understanding the basics
 
-Function name: `get_next_line`
+A good start would be to know what a **static variable** is.
 
-Prototype: `char  *get_next_line(int fd);`
+So what is a static variable?
 
-Turn in files: `get_next_line.c, get_next_line_utils.c, get_next_line.h`
+Basically, a static variable is a variable that maintains its value between function calls, staying in memory throughout the program's execution. It is initialized only once and retains its value between calls, being accessible only within the scope of the function where it was declared.
 
-Parameters: `fd: The file descriptor to read from`
-
-Return value: `Read line: correct behavior` or `NULL: there is nothing else to read, or an error occurred`
-
-External functs.: `read, malloc, free`
-
-Description: `Write a function that returns a line read from a file descriptor`
+For more detailed information, check the Wikipedia on [**static variable**](https://en.wikipedia.org/wiki/Static_variable)
 
 ## 📋 Testing
 
