@@ -6,7 +6,7 @@
   <b><i>Reading a line from a fd is way too tedious</i></b><br>
 </p>
 
-## About the project
+##  📚 About the project
 > _This project is about programming a function that returns a line
 read from a file descriptor._
 
@@ -28,4 +28,9 @@ This command will compile your project and run the program, displaying the outpu
 
 ```shell
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c && ./a.out | cat -e
+```
+The command remains the same for the bonus part of the project, just add the _bonus suffix to the source files.
+
+```shell
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=<size> get_next_line_bonus.c get_next_line_utils_bonus.c && ./a.out | cat -e
 ```
