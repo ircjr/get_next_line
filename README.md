@@ -24,6 +24,8 @@ read from a file descriptor._
 
 For more detailed information, check the [**subject of this project**](https://github.com/ircjr/get_next_line/blob/main/en.subject.pdf)
 
+## 📖 Guide to get_next_line
+
 ## 📋 Testing
 
 This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the [**get_next_line.c**](https://github.com/ircjr/get_next_line/blob/main/get_next_line.c) file before running and replace **<size>** with the desired buffer size.
