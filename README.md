@@ -38,6 +38,8 @@ Basically, a static variable is a variable that maintains its value between func
 
 For more detailed information, check the Wikipedia on [**static variable**](https://en.wikipedia.org/wiki/Static_variable)
 
+Aqui temos um exemplo prático de como uma variável estática pode funcionar:
+
 ```
 #include <stdio.h>
 
@@ -46,12 +48,11 @@ void	modify_str(void)
 	static char	str[] = "Example";
 	int			i;
 
-	printf("%s\n", str);
 	i = 0;
 	while (str[i])
 	{
 		str[i] = 'X';
-		printf("%s\n", str);
+		printf("Modifying the position [%d]: %s\n", i, str);
 		i++;
 	}
 }
@@ -61,6 +62,18 @@ int	main(void)
 	modify_str();
 	return (0);
 }
+```
+
+A compilação e executação do código acima nos traz o incŕivel resultado:
+
+```
+Modifying the position [0]: Xxample
+Modifying the position [1]: XXample
+Modifying the position [2]: XXXmple
+Modifying the position [3]: XXXXple
+Modifying the position [4]: XXXXXle
+Modifying the position [5]: XXXXXXe
+Modifying the position [6]: XXXXXXX
 ```
 
 ## 📋 Testing
