@@ -3,6 +3,9 @@
 </h1>
 
 ## Testing
+
+This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the **get_next_line.c** file before running and replace **<size>** with the desired buffer size.
+
 ```shell
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c && ./a.out | cat -e
 ```
