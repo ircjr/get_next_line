@@ -1,2 +1,2 @@
-Linha 1 - Aqui existe uma quebra de linha
-Linha 2 - Aqui não existe uma quebra de linha
+Line 1 - Here, there is a newline character
+Line 2 - Here, there is no newline character
