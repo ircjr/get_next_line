@@ -11,12 +11,16 @@
 read from a file descriptor._
 
     The get_next_line project is a fundamental exercise that challenges developers to create a
-    function capable of reading a file line by line. In a broader context, this function becomes a crucial
-    tool in handling input and output operations efficiently.
+    function capable of reading a file line by line. In a broader context, this function becomes
+    a crucial tool in handling input and output operations efficiently.
 
-    Developers implementing get_next_line learn the intricacies of managing file descriptors, memory allocation, and buffer handling. This project delves into the heart of C programming, requiring a deep understanding of file I/O operations, dynamic memory allocation, and string manipulation.
+    Developers implementing get_next_line learn the intricacies of managing file descriptors, memory
+    allocation, and buffer handling. This project delves into the heart of C programming, requiring
+    a deep understanding of file I/O operations, dynamic memory allocation, and string manipulation.
 
-    This function, when perfected, allows for seamless reading from multiple file descriptors simultaneously. It is an essential skill for anyone venturing into systems programming, file manipulation, or any domain where efficient text processing is paramount.
+    This function, when perfected, allows for seamless reading from multiple file descriptors
+    simultaneously. It is an essential skill for anyone venturing into systems programming,
+    file manipulation, or any domain where efficient text processing is paramount.
 
 ## 📋 Testing
 
