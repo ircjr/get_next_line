@@ -6,7 +6,9 @@
   <b><i>Reading a line from a fd is way too tedious</i></b><br>
 </p>
 
----
+## About the project
+> _This project is about programming a function that returns a line
+read from a file descriptor._
 
 ## 📋 Testing
 
