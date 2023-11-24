@@ -38,6 +38,31 @@ Basically, a static variable is a variable that maintains its value between func
 
 For more detailed information, check the Wikipedia on [**static variable**](https://en.wikipedia.org/wiki/Static_variable)
 
+```
+#include <stdio.h>
+
+void	modify_str(void)
+{
+	static char	str[] = "Example";
+	int			i;
+
+	printf("%s\n", str);
+	i = 0;
+	while (str[i])
+	{
+		str[i] = 'X';
+		printf("%s\n", str);
+		i++;
+	}
+}
+
+int	main(void)
+{
+	modify_str();
+	return (0);
+}
+```
+
 ## 📋 Testing
 
 This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the [**get_next_line.c**](https://github.com/ircjr/get_next_line/blob/main/get_next_line.c) file before running and replace **<size>** with the desired buffer size.
