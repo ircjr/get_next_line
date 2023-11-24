@@ -32,7 +32,7 @@ For more detailed information, check the [**subject of this project**](https://g
 
 A good start would be to know what a **static variable** is.
 
-#### So what is a **static variable**?
+So what is a **static variable**?
 
 Basically, a **static variable** is a variable that maintains its value between function calls, staying in memory throughout the program's execution. It is initialized only once and retains its value between calls, being accessible only within the scope of the function where it was declared.
 
