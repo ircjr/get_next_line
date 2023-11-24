@@ -77,6 +77,10 @@ The compilation and execution of the above code bring us the following result:
 
 Now, we can see the essence of a **static variable**, which is the ability to retain its value between function calls.
 
+## 🛠️ Usage
+
+White page...
+
 ## 📋 Testing
 
 This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the [**get_next_line.c**](https://github.com/ircjr/get_next_line/blob/main/get_next_line.c) file before running and replace **<size>** with the desired buffer size.
