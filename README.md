@@ -28,6 +28,16 @@ For more detailed information, check the [**subject of this project**](https://g
 
 ## 📖 Guide to get_next_line
 
+### 1️⃣ Understanding the basics
+
+Function name    : `get_next_line`
+Prototype        : `char  *get_next_line(int fd);`
+Turn in files    : `get_next_line.c, get_next_line_utils.c, get_next_line.h`
+Parameters       : `fd: The file descriptor to read from`
+Return value     : `Read line: correct behavior` or `NULL: there is nothing else to read, or an error occurred`
+External functs. : `read, malloc, free`
+Description      : `Write a function that returns a line read from a file descriptor`
+
 ## 📋 Testing
 
 This command will compile your project and run the program, displaying the output with newline characters represented as **$**. Make sure to uncomment the main function in the [**get_next_line.c**](https://github.com/ircjr/get_next_line/blob/main/get_next_line.c) file before running and replace **<size>** with the desired buffer size.
