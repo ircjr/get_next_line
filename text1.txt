@@ -1,0 +1,2 @@
+Linha 1 - Aqui existe uma quebra de linha
+Linha 2 - Aqui não existe uma quebra de linha
