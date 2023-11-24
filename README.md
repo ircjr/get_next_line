@@ -43,23 +43,19 @@ This code is a practical example of how a static variable can work:
 ```
 #include <stdio.h>
 
-void	modify_str(void)
+int	count_calls(void)
 {
-	static char	str[] = "Example";
-	int			i;
+	static int	count = 0;
 
-	i = 0;
-	while (str[i])
-	{
-		str[i] = 'X';
-		printf("Modifying the position [%d]: %s\n", i, str);
-		i++;
-	}
+	count++;
+	return (count);
 }
 
 int	main(void)
 {
-	modify_str();
+	printf("%d\n", count_calls());
+	printf("%d\n", count_calls());
+	printf("%d\n", count_calls());
 	return (0);
 }
 ```
@@ -67,13 +63,9 @@ int	main(void)
 The compilation and execution of the above code bring us the following result:
 
 ```
-Modifying the position [0]: Xxample
-Modifying the position [1]: XXample
-Modifying the position [2]: XXXmple
-Modifying the position [3]: XXXXple
-Modifying the position [4]: XXXXXle
-Modifying the position [5]: XXXXXXe
-Modifying the position [6]: XXXXXXX
+1
+2
+3
 ```
 
 ## 📋 Testing
