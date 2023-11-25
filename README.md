@@ -37,6 +37,30 @@ For more detailed information, check the [**subject of this project**](https://g
 
 ### 1️⃣ Understanding the basics
 
+Function name: `get_next_line`
+
+Prototype: `char  *get_next_line(int fd);`
+
+Turn in files: `get_next_line.c, get_next_line_utils.c, get_next_line.h`
+
+Parameters: `fd: The file descriptor to read from`
+
+Return value: `Read line: correct behavior` or `NULL: there is nothing else to read, or an error occurred`
+
+External functs.: `read, malloc, free`
+
+Description: `Write a function that returns a line read from a file descriptor`
+
+
+**Forbidden**
+
+You are not allowed to use your libft in this project.
+
+lseek() is forbidden.
+
+Global variables are forbidden.
+
+
 A good start would be to know what a **static variable** is.
 
 So what is a **static variable**?
@@ -76,10 +100,6 @@ The compilation and execution of the above code bring us the following result:
 ```
 
 Now, we can see the essence of a **static variable**, which is the ability to retain its value between function calls.
-
-## 🛠️ Usage
-
-White page...
 
 ## 📋 Testing
 
